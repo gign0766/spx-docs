@@ -4,7 +4,7 @@ Superphenix can attach a dedicated GPU to a virtual machine with **PCI passthrou
 
 ## GPU classes
 
-Users do not pick a physical device. They pick a **GPU class**, such as `NVIDIA RTX PRO 6000 Blackwell Server Edition`. Each AZ publishes the classes its hardware provides, so the list in the console depends on the AZ you select.
+Users pick a **GPU class**, such as `NVIDIA RTX PRO 6000 Blackwell Server Edition`. Each AZ publishes the classes its hardware provides, so the list in the console depends on the AZ you select.
 
 The AZ operator maps every class to the device that KubeVirt exposes on the GPU nodes. See [Enabling GPU passthrough](../../operations/compute/gpu-passthrough.md).
 
